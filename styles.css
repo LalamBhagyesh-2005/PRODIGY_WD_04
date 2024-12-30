@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* White text */
+}
+
+header {
+    background-color: #1e1e1e;
+    color: #ff9505; /* Bright orange text */
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px #ff4500; /* Glowing shadow effect */
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 1.2rem;
+}
+
+nav {
+    background-color: #000000; /* Pure black navbar */
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(255, 69, 0, 0.8); /* Flaming shadow effect */
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: #ffffff; /* White text */
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ff4500; /* Flaming orange */
+    color: #000; /* Black text */
+    box-shadow: 0 0 10px #ff4500, 0 0 20px #ff9505; /* Glowing hover effect */
+}
+
+nav a.active {
+    background-color: #ff9505; /* Bright orange for active link */
+    color: #000;
+}
+
+main {
+    padding: 80px 20px 20px; /* Add top padding to avoid overlapping with navbar */
+}
+
+h2 {
+    color: #ff9505; /* Bright orange headings */
+    border-bottom: 2px solid #ff4500; /* Flaming border */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+section {
+    margin-bottom: 20px;
+    background: #1e1e1e; /* Dark section background */
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+}
+
+section img {
+    border: 3px solid #ff4500; /* Orange border for profile image */
+    box-shadow: 0 0 10px #ff4500; /* Glowing effect */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding: 8px;
+    background: #292929; /* Slightly lighter background for list items */
+    border-radius: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+ul li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #ff4500; /* Glowing hover effect */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 5px rgba(255, 69, 0, 0.8); /* Flaming shadow at the top */
+}
